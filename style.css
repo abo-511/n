@@ -72,7 +72,7 @@ body {
 }
 
 .profile-logo {
-    width: 120px; /* تصغير اللوجو بشكل ملحوظ */
+    width: 155px; /* كبر اللوجو في الجوال */
     height: auto;
     margin-bottom: 10px;
     filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05));
