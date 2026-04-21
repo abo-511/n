@@ -228,11 +228,11 @@ body {
 }
 
 .exp-card {
-    flex: 0 0 70%; /* نكبره شوي عشان يكون مريح للنظر وتقدر تسحب يسار ويمين */
-    max-width: 240px; /* الحجم المثالي والمقروء */
+    flex: 0 0 58%; /* التوازن المثالي: تأخذ مساحة مناسبة ويظهر جزء من الكرت الثاني */
+    max-width: 195px; /* حجم متوازن جداً */
     display: flex;
     flex-direction: column; 
-    gap: 12px; /* نرجع المسافة المريحة */
+    gap: 10px; /* مسافة متوازنة */
     text-decoration: none;
     color: var(--text-color);
     transition: transform 0.3s ease;
@@ -267,14 +267,14 @@ body {
 
 .exp-title {
     font-weight: 800;
-    font-size: 0.85rem; /* نكبر الخط شوي عشان القراءة */
+    font-size: 0.8rem; /* خط متوازن */
     line-height: 1.4; 
     color: #222;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* نسمح بثلاثة أسطر حتى ما يختفي نص الكلام */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
-    min-height: 3.57rem; /* 1.4 * 0.85 * 3 */
+    min-height: 3.36rem; /* 1.4 * 0.8 * 3 */
 }
 
 .exp-menu {
@@ -297,9 +297,9 @@ body {
     background-color: #4a3623; 
     color: var(--white);
     text-decoration: none;
-    padding: 8px 0; /* مساحة مريحة للزر */
+    padding: 7px 0; /* مساحة متوازنة للزر */
     border-radius: 8px; 
-    font-size: 0.8rem; /* نكبر خط الزر شوي */
+    font-size: 0.75rem; /* خط متوازن للزر */
     font-weight: 700;
     transition: background-color 0.3s ease, transform 0.2s ease;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
